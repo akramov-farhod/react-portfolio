@@ -14,7 +14,7 @@ function Projects() {
               key={key}
               image={projectItem.image}
               name={projectItem.name}
-              price={projectItem.price}
+              description={projectItem.description}
             />
           );
         })}

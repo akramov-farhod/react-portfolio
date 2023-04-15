@@ -2,33 +2,39 @@ import pic from "../assets/projectPlaceholder.jpeg";
 
 export const ProjectList = [
   {
-    name: "Pepperoni Pizza",
+    name: "First Project",
     image: pic,
-    price: 15.99,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
   {
-    name: "Margherita Pizza",
+    name: "Second Project",
     image: pic,
-    price: 11.99,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
   {
-    name: "PedroTech Special Pizza",
+    name: "Third Project",
     image: pic,
-    price: 256.53,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
   {
-    name: "Vegan Pizza",
+    name: "Fourth Project",
     image: pic,
-    price: 17.99,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
   {
-    name: "Pineapple Pizza",
+    name: "Fifth Project",
     image: pic,
-    price: 4.99,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
   {
-    name: "Very Expensive Pizza",
+    name: "Sixth Project",
     image: pic,
-    price: 1997.99,
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
   },
 ];
