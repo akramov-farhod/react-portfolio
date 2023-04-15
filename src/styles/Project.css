@@ -1,4 +1,4 @@
-.menu {
+.project {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,11 +6,11 @@
   align-items: center;
   flex-direction: column;
 }
-.menu .menuTitle {
+.project .projectTitle {
   font-size: 60px;
 }
 
-.menuList {
+.projectList {
   width: 70vw;
   height: auto;
   display: grid;
@@ -18,22 +18,22 @@
   place-items: center;
 }
 
-/* MENU ITEM STYLING */
+/* project ITEM STYLING */
 
-.menuItem {
+.projectItem {
   border-radius: 15px;
   width: 300px;
   height: 350px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
-.menuItem:hover {
+.projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.menuItem div {
+.projectItem div {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -43,19 +43,19 @@
   background-size: cover;
 }
 
-.menuItem h1,
-.menuItem p {
+.projectItem h1,
+.projectItem p {
   margin-left: 20px;
 }
 
 @media only screen and (max-width: 1300px) {
-  .menuList {
+  .projectList {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .menuList {
+  .projectList {
     grid-template-columns: 1fr;
   }
 }

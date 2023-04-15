@@ -1,8 +1,8 @@
 import React from "react";
 
-function MenuItem({ image, name, price }) {
+function ProjectItem({ image, name, price }) {
   return (
-    <div className="menuItem">
+    <div className="projectItem">
       <div style={{ backgroundImage: `url(${image})` }}></div>
       <h1>{name}</h1>
       <p>${price}</p>
@@ -10,4 +10,4 @@ function MenuItem({ image, name, price }) {
   );
 }
 
-export default MenuItem;
+export default ProjectItem;

@@ -1,6 +1,6 @@
 import pic from "../assets/projectPlaceholder.jpeg";
 
-export const MenuList = [
+export const ProjectList = [
   {
     name: "Pepperoni Pizza",
     image: pic,
