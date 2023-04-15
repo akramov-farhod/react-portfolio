@@ -12,8 +12,8 @@ function Home() {
       <div className="headerContainer">
         <h1>Awesome Title</h1>
         <p>Some amazing Slogan</p>
-        <Link to="/projects">
-          <button>DO SOMETHING</button>
+        <Link to="/about">
+          <button>ABOUT ME</button>
         </Link>
       </div>
     </div>
