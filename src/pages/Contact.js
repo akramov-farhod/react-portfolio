@@ -1,5 +1,5 @@
 import React from "react";
-import contactPlaceholder from "../assets/contactPlaceholder.jpeg";
+import contactPlaceholder from "../assets/contactGif.gif";
 import "../styles/Contact.css";
 
 function Contact() {
