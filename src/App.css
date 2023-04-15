@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+* {
+  font-size: 62.5%;
+  font-family: "Tilt Neon", cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+p {
+  font-size: 4rem;
+}
