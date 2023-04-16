@@ -1,11 +1,12 @@
 import React from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import aboutPlaceholder from "../assets/contactPlaceholder.jpeg";
+import profilePic from "../assets/projectPlaceholder.jpeg";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "../styles/About.css";
 
 function About() {
+  document.title = "Portfolio - About Me";
+
   return (
     <div className="about">
       <div className="leftSide">
@@ -63,6 +64,10 @@ function About() {
 
       <div className="rightSide">
         <h1>About Me</h1>
+        <div
+          className="profilePic"
+          style={{ backgroundImage: `url(${profilePic})` }}
+        ></div>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
           asperiores totam dolor reiciendis eos ea dolores quas aperiam nihil

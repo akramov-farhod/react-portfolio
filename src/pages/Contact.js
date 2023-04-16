@@ -3,6 +3,8 @@ import contactPlaceholder from "../assets/contactGif.gif";
 import "../styles/Contact.css";
 
 function Contact() {
+  document.title = "Portfolio - Contact Me";
+
   return (
     <div className="contact">
       <div

@@ -4,6 +4,8 @@ import ProjectItem from "../components/ProjectItem";
 import "../styles/Project.css";
 
 function Projects() {
+  document.title = "Portfolio - Projects";
+
   return (
     <div className="project">
       <h1 className="projectTitle">Projects</h1>
