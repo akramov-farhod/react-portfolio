@@ -6,7 +6,7 @@
 .navbar {
   width: 100%;
   height: 100px;
-  background-color: #121619;
+  background-color: #303030;
   display: flex;
   flex-direction: row;
 }
@@ -16,7 +16,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 150px;
+  padding-left: 50px;
 }
 
 .navbar .leftSide img {
@@ -46,23 +46,22 @@
 }
 
 .navbar .rightSide svg {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .navbar #open {
   padding-left: 0px;
 }
-.navbar #open img {
+.navbar #open #logo {
   display: none;
 }
 
-.navbar #close img {
+.navbar #close #logo {
   display: inherit;
 }
 
 .navbar #open .hiddenLinks {
   display: inherit;
-  margin-left: 30px;
 }
 
 .navbar #close .hiddenLinks {
@@ -70,8 +69,9 @@
 }
 
 .navbar #open a {
+  text-align: center;
   width: 70px;
-  margin: 5px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 900px) {
@@ -90,7 +90,7 @@
 
   .navbar .rightSide {
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 0;
   }
 
   .navbar .rightSide button {

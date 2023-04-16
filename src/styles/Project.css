@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .project .projectTitle {
-  font-size: 60px;
+  font-size: 4rem;
 }
 
 .projectList {
@@ -21,6 +21,7 @@
 /* project ITEM STYLING */
 
 .projectItem {
+  justify-self: center;
   border-radius: 15px;
   width: 300px;
   height: 350px;
@@ -54,8 +55,12 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .projectList {
     grid-template-columns: 1fr;
+  }
+  .projectItem {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

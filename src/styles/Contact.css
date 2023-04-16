@@ -22,7 +22,7 @@
 
 .contact .rightSide h1 {
   font-weight: 10;
-  font-size: 50px;
+  font-size: 3rem;
   margin-left: 30px;
 }
 
@@ -38,7 +38,8 @@ form input {
   height: 40px;
   width: 80%;
   border: none;
-  border-bottom: 1px solid #121619;
+  border-right: 1px solid #303030;
+  border-bottom: 1px solid #303030;
   color: black;
 }
 
@@ -47,22 +48,20 @@ form textarea {
   height: 70px;
   width: 80%;
   border: none;
-  border-bottom: 1px solid #121619;
+  border-right: 1px solid #303030;
+  border-bottom: 1px solid #303030;
   color: black;
 }
-input::placeholder,
-textarea::placeholder {
-  font-weight: bold;
-  color: black;
-}
+
 form input:focus,
 textarea:focus {
   outline: none;
 }
 
 form label {
+  font-size: 1rem;
   margin-top: 15px;
-  color: grey;
+  color: black;
 }
 
 form button {
@@ -70,8 +69,8 @@ form button {
   width: 140px;
   height: 40px;
   border: none;
-  background-color: #121619;
+  background-color: #303030;
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 1rem;
   cursor: pointer;
 }
