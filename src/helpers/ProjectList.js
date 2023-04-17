@@ -37,7 +37,7 @@ export const ProjectList = [
     name: "AnswerME",
     image: quizApp,
     description:
-      "AnswerMe generates and presents the user with 10 random questions and sets a timer for 100 seconds to keep the competitive spirit alive.",
+      "AnswerMe generates and presents the User with 10 random Questions and sets the Timer for 100 seconds to keep the competitive Spirit alive.",
     url: "https://akramov-farhod.github.io/quiz-application/",
     repo: "https://github.com/akramov-farhod/quiz-application",
   },
@@ -61,9 +61,9 @@ export const ProjectList = [
     name: "Work-Day Scheduler",
     image: workDayScheduler,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "",
-    repo: "",
+      "A simple Application that allows the User to edit Events and keep Data persistent using Local Storage based on current Time",
+    url: "https://akramov-farhod.github.io/scheduler/",
+    repo: "https://github.com/akramov-farhod/scheduler",
   },
   {
     name: "Note Taker",
