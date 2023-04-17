@@ -74,10 +74,15 @@ function About() {
           style={{ backgroundImage: `url(${profilePic})` }}
         ></div>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
-          asperiores totam dolor reiciendis eos ea dolores quas aperiam nihil
-          odit! Ad excepturi optio deserunt delectus eius officia pariatur
-          tempore aut!
+          &emsp;Hi There! I'm glad you've made it to my personal website. I am a
+          Software Developer with a Passion for coding and problem-solving. I
+          recently graduated from a "Full-Stack Web Developer Bootcamp" by
+          Denver University and have been actively honing various programming
+          skills and techniques ever since. I am excited to work on projects
+          that challenge me and allow me to grow as a developer. In my free
+          time, I enjoy reading about new technologies and exploring the latest
+          trends in software development. I'm always eager to learn more and
+          take on new challenges.
         </p>
       </div>
     </div>

@@ -69,8 +69,8 @@ export const ProjectList = [
     name: "Note Taker",
     image: noteTaker,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "",
-    repo: "",
+      "Allows the User to enter a persistent Note that contains a Title and Text. Notes can be deleted as well. Deployed on Heroku.",
+    url: "https://mysterious-sierra-03485.herokuapp.com/",
+    repo: "https://github.com/akramov-farhod/note-taker",
   },
 ];

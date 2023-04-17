@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact .leftSide {
   height: 100%;
   flex: 50%;
@@ -64,13 +69,18 @@ form label {
   color: black;
 }
 
-form button {
+form #submitButton {
   margin-top: 40px;
-  width: 140px;
-  height: 40px;
-  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
   background-color: #303030;
   color: whitesmoke;
   font-size: 1rem;
   cursor: pointer;
+}
+
+form #submitButton:hover {
+  background-color: #555555;
+  transition: 0.3s ease-in;
 }

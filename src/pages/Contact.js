@@ -1,7 +1,7 @@
 import React from "react";
 import contactPlaceholder from "../assets/contactGif.gif";
 import "../styles/Contact.css";
-
+import { Link } from "react-router-dom";
 function Contact() {
   document.title = "Portfolio - Contact Me";
 
@@ -25,7 +25,9 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <button type="submit">Send Message</button>
+          <button id="submitButton">
+            <Link to="/Page404">Send Message</Link>
+          </button>
         </form>
       </div>
     </div>
