@@ -21,7 +21,8 @@ export const ProjectList = [
     image: digitalLibrarian,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "http://www.google.com",
+    url: "",
+    repo: "",
   },
 
   {
@@ -29,21 +30,24 @@ export const ProjectList = [
     image: readmeGen,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "na",
+    repo: "",
   },
   {
     name: "Quiz Application",
     image: quizApp,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "",
+    repo: "",
   },
   {
     name: "Password Generator",
     image: passwordGen,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "",
+    repo: "",
   },
 
   {
@@ -51,20 +55,23 @@ export const ProjectList = [
     image: weatherDash,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "",
+    repo: "",
   },
   {
     name: "Work-Day Scheduler",
     image: workDayScheduler,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "",
+    repo: "",
   },
   {
     name: "Note Taker",
     image: noteTaker,
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "www.google.com",
+    url: "",
+    repo: "",
   },
 ];
