@@ -17,7 +17,12 @@ function About() {
               style={vscDarkPlus}
               PreTag="div"
               showLineNumbers="true"
-              children={`const aboutMe = {
+              children={`
+  // THESE ARE NOT MY SKILLS !!!!!!
+  // I'VE ADDED THEM AS A PLACEHOLDER
+  // I'LL UPDATE THIS ASAP !!!!!!!!
+
+  const aboutMe = {
   pronouns: "he" || "him",
   
   code: [ TypeScript, JavaScript, PHP, HTML, CSS ],

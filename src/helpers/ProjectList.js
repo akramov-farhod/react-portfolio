@@ -34,20 +34,19 @@ export const ProjectList = [
     repo: "https://github.com/akramov-farhod/readme-generator",
   },
   {
-    name: "Quiz Application",
+    name: "AnswerME",
     image: quizApp,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "",
-    repo: "",
+      "AnswerMe generates and presents the user with 10 random questions and sets a timer for 100 seconds to keep the competitive spirit alive.",
+    url: "https://akramov-farhod.github.io/quiz-application/",
+    repo: "https://github.com/akramov-farhod/quiz-application",
   },
   {
     name: "Password Generator",
     image: passwordGen,
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "",
-    repo: "",
+    description: `Generates a Random Password: between 8-128 Characters lowercase[and/or]UPPERCASE [include/exlude] numbers(0-9) [include/exlude] special characters`,
+    url: "https://akramov-farhod.github.io/password-generator/",
+    repo: "https://github.com/akramov-farhod/password-generator",
   },
 
   {

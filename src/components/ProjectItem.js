@@ -8,7 +8,7 @@ function ProjectItem({ image, name, description, url, repo }) {
       <h1>{name}</h1>
       <p>{description}</p>
       <Link id="address" to={url} target="blank">
-        URL
+        Website
       </Link>
       <Link id="repository" to={repo} target="blank">
         Repository
