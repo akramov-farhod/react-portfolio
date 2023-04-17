@@ -11,7 +11,7 @@ function ProjectItem({ image, name, description, url, repo }) {
         URL
       </Link>
       <Link id="repository" to={repo} target="blank">
-        Repo
+        Repository
       </Link>
     </div>
   );
