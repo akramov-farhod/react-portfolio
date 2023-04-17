@@ -44,7 +44,7 @@ export const ProjectList = [
   {
     name: "Password Generator",
     image: passwordGen,
-    description: `Generates a Random Password: between 8-128 Characters lowercase[and/or]UPPERCASE [include/exlude] numbers(0-9) [include/exlude] special characters`,
+    description: `Generates a Random Password: Between 8-128 Characters lowercase[and/or]UPPERCASE [include/exlude] Numbers(0-9) [include/exlude] Special Characters`,
     url: "https://akramov-farhod.github.io/password-generator/",
     repo: "https://github.com/akramov-farhod/password-generator",
   },
@@ -53,9 +53,9 @@ export const ProjectList = [
     name: "Weather Dashboard",
     image: weatherDash,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, esse!",
-    url: "",
-    repo: "",
+      "Provides the User with a Weather Forecast for the upcoming 5 days based on the User's current Date and Time.",
+    url: "https://empc313.github.io/weather-page/",
+    repo: "https://github.com/empc313/weather-page",
   },
   {
     name: "Work-Day Scheduler",
