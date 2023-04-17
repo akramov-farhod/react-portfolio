@@ -1,11 +1,63 @@
 .Page404 {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
-  justify-content: center;
-  align-items: left;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y: scroll;
+}
+
+.Page404 a {
+  text-decoration: none;
+}
+
+.Page404 #content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Page404 #gifHolder,
+.Page404 #text,
+.Page404 #button {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.Page404 #gifHolder {
+  height: 280px;
+  width: 375px;
+}
+.Page404 #text {
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 50px;
+  width: 375px;
+  height: 280px;
+  background-color: lightgray;
+}
+.Page404 #button {
+  margin: 10px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  height: auto;
+  width: 100px;
+  border-radius: 10px;
+  background-color: darkgray;
+  color: #303030;
+}
+.Page404 #button:hover {
+  background-color: #303030;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+@media only screen and (max-width: 600px) {
+  .Page404 #content {
+    flex-direction: column;
+  }
 }
