@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../assets/projectPlaceholder.jpeg";
+import profilePic from "../assets/aboutProfilePic.png";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import "../styles/About.css";
