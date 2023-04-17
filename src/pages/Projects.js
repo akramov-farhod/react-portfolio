@@ -17,6 +17,8 @@ function Projects() {
               image={projectItem.image}
               name={projectItem.name}
               description={projectItem.description}
+              url={projectItem.url}
+              repo={projectItem.repo}
             />
           );
         })}
