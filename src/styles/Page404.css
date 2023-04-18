@@ -1,4 +1,5 @@
 .Page404 {
+  background-color: var(--myWhite);
   width: 100%;
   height: 80vh;
   display: flex;
@@ -19,13 +20,9 @@
   display: flex;
   align-items: center;
   text-align: center;
+  border: 2px solid var(--darkBlue);
 }
 
-.Page404 #gifHolder,
-.Page404 #text,
-.Page404 #button {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-}
 .Page404 #gifHolder {
   height: 280px;
   width: 375px;
@@ -37,7 +34,7 @@
   padding-top: 50px;
   width: 375px;
   height: 280px;
-  background-color: lightgray;
+  background-color: var(--myWhite);
 }
 .Page404 #button {
   margin: 10px;
@@ -47,14 +44,15 @@
   height: auto;
   width: 100px;
   border-radius: 10px;
-  background-color: darkgray;
-  color: #303030;
+  color: var(--myWhite);
+  background-color: var(--darkBlue);
 }
 .Page404 #button:hover {
-  background-color: #303030;
-  color: white;
-  cursor: pointer;
+  color: var(--darkBlue);
+  background-color: var(--lightBlue);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
   .Page404 #content {

@@ -1,4 +1,5 @@
 .project {
+  background-color: var(--myWhite);
   width: 100%;
   height: auto;
   display: flex;
@@ -21,6 +22,7 @@
 /* project ITEM STYLING */
 
 .projectItem {
+  background-color: var(--lightBlue);
   justify-self: center;
   border-radius: 15px;
   padding-bottom: 10px;
@@ -32,7 +34,6 @@
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
-  cursor: pointer;
 }
 
 .projectItem div {
@@ -61,7 +62,7 @@
 }
 
 .projectItem #imgWrap {
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid var(--darkBlue);
 }
 
 .projectItem a#address,
@@ -74,14 +75,17 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 1rem;
-  color: white;
-  background-color: #303030;
+  color: var(--myWhite);
+  background-color: var(--darkBlue);
 }
 
 .projectItem a#address:hover,
 .projectItem a#repository:hover {
-  transition: 0.2s ease-in;
-  background-color: #555555;
+  color: var(--darkBlue);
+  background-color: var(--myWhite);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+
+  transition: 0.3s ease-in;
 }
 
 @media only screen and (max-width: 1300px) {

@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Tilt+Neon&display=swap");
 
+:root {
+  --darkBlue: #2d3047;
+  --lightBlue: #96adc8;
+  --myWhite: #e4eaf1;
+  --myWhite50: #e4eaf180; /* transparency 50% */
+  --myYellow: #faa916;
+  --darkYellow: #b47604;
+}
+
 .App {
   font-size: 62.5%;
   font-family: "Tilt Neon", cursive;

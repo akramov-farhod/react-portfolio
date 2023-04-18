@@ -25,9 +25,9 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <button id="submitButton">
-            <Link to="/Page404">Send Message</Link>
-          </button>
+          <Link id="linkId" to="/Page404">
+            <button id="submitButton">Send Message</button>
+          </Link>
         </form>
       </div>
     </div>
