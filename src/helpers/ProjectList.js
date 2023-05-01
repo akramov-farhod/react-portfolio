@@ -4,10 +4,19 @@ import noteTaker from "../assets/noteTaker.png";
 import weatherDash from "../assets/weatherDash.png";
 import digitalLibrarian from "../assets/digitalLibrarian.png";
 import mercuryPos from "../assets/mercuryPos.png";
+import birdNerd from "../assets/birdNerd.png";
 import workDayScheduler from "../assets/workDayScheduler.png";
 import passwordGen from "../assets/passwordGen.png";
 
 export const ProjectList = [
+  {
+    name: "Bird Nerd",
+    image: birdNerd,
+    description:
+      "Bird Nerd is a bird identification app that helps users identify sighted birds based on their input. The app includes a database of Colorado bird species.",
+    url: "https://bird-nerd2023.herokuapp.com/",
+    repo: "https://github.com/JamesGeneser/Bird-Nerd",
+  },
   {
     name: "Mercury POS",
     image: mercuryPos,
