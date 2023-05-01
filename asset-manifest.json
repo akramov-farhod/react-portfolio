@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5d7baf6c.css",
-    "main.js": "/react-portfolio/static/js/main.68b0f643.js",
+    "main.js": "/react-portfolio/static/js/main.11838ebd.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Page404.gif": "/react-portfolio/static/media/Page404.6b3b5b3721e447502acf.gif",
     "static/media/contactGif.gif": "/react-portfolio/static/media/contactGif.6aa4315d98f66b6c855a.gif",
     "static/media/homeImg.png": "/react-portfolio/static/media/homeImg.d63a6a8828ed96b083c4.png",
+    "static/media/birdNerd.png": "/react-portfolio/static/media/birdNerd.3a80736638c8d4ccfcd4.png",
     "static/media/readmeGenCli.png": "/react-portfolio/static/media/readmeGenCli.31f3650bf7cae94aac1f.png",
     "static/media/weatherDash.png": "/react-portfolio/static/media/weatherDash.189ee79f63f946db35cb.png",
     "static/media/aboutProfilePic.png": "/react-portfolio/static/media/aboutProfilePic.fccfce2646a3d70421ac.png",
@@ -17,11 +18,11 @@
     "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.558e18cb22986ba57bca.png",
     "index.html": "/react-portfolio/index.html",
     "main.5d7baf6c.css.map": "/react-portfolio/static/css/main.5d7baf6c.css.map",
-    "main.68b0f643.js.map": "/react-portfolio/static/js/main.68b0f643.js.map",
+    "main.11838ebd.js.map": "/react-portfolio/static/js/main.11838ebd.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d7baf6c.css",
-    "static/js/main.68b0f643.js"
+    "static/js/main.11838ebd.js"
   ]
 }
